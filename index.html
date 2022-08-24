@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Navrongo Senior High School</title>
+</head>
+    <!-- HEADER SECTION, Contains logo and navigations -->
+    <header>
+        <div class="image-container"><img src="images/logo.jpg" alt="logo"></div>
+        <nav class="topnav">
+            <div class="nav-container">
+                <a class="active" href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="program.html">Programmes</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+     <!-- Search button -->
+            <form class="search" action="#">
+                 <input type="text" placeholder="Search.." name="search">
+            </form>
+        </nav>
+    </header>
+
+<!-- Main body starts here -->
+
+<body style = "background-image: url('images/1.jpg') height= 50px width= 50px">
+
+    <main>
+        <!-- Banner image -->
+        <div class="banner-img">
+            <img src="images/admin.jpg" alt="banner image">
+        </div>    
+
+        <form method="post" action="#" style="">
+            <h2>ADMISSION FORM</h2>
+            <div class="row">
+                <fieldset class="row-child">
+                <legend>Personal Infomation</legend>
+                <label for="applicantName">Full name</label>
+                <p><input type="text" value="" placeholder="Enter full name" required></p>
+
+                <label for="applicantName">Gender:</label>
+                Male<input type="radio" id="gender" name="gender" value="Male" />
+                Female<input type="radio" id="gender" name="gender" value="Female" /></p>
+                
+                <label for="applicantName">Contact</label>
+                <p><input type="text" id="Name" placeholder="Enter your contact"/></p>
+                
+                <label for="applicantName">Email</label>
+                <p><input type="text" id="Name" placeholder="Enter your email"/></p>
+                
+                <label for="applicantName">Nationality</label>
+                <p><input type="text" id="Name" placeholder="Enter your nationality"/></p>
+                
+                <label for="applicantName">Address</label>
+                <p><input type="text" id="Name" placeholder="Enter your address"/></p>
+
+                <label for="applicantName">Country</label>
+                <p><input type="text" id="Name" placeholder="Enter your country"/></p>
+            </fieldset>
+
+            <fieldset class="row-child">
+                <legend>Programme of study</legend>
+                <em>Please indicated in order of preference your prefered programme of study</em><p>
+                <div id="prolabel"><label for="programme" >First Choice</label>
+                    <select name="" id="choice">
+                        <option value="">Select Choice</option>
+                        <option value="">Agricultural Science</option>
+                        <option value="">Visual Arts</option>
+                        <option value="">Home Science </option>
+                        <option value="">General Science</option>
+                        <option value="">General Arts</option>
+                    </select><p>
+                </div>
+                
+                <div id="prolabel"><label for="programme">Second Choice</label>
+                    <select name="" id="choice">
+                        <option value="">Select Choice</option>
+                        <option value="">Agricultural Science</option>
+                        <option value="">Visual Arts</option>
+                        <option value="">Home Science </option>
+                        <option value="">General Science</option>
+                        <option value="">General Arts</option>
+                    </select> </p>    
+                </div>
+                
+                <div id="prolabel"><label for="programme">Third Choice</label>
+                    <select name="" id="choice">
+                        <option value="">Agricultural Science</option>
+                        <option value="">Visual Arts</option>
+                        <option value="">Home Science </option>
+                        <option value="">General Science</option>
+                        <option value="">General Arts</option>
+                    </select>
+                </div>
+                
+            </fieldset>
+            </div>
+            <!-- end of column1 of form -->
+
+            <!-- start of column2 of form -->
+            <div class="row">
+            <fieldset>
+                <legend>Applicant’s Medical Information</legend>
+                <label for="health" id="health">Applicant has normal health:</label>
+                
+                Yes<input type="radio" id="health" name="health" value="Yes" />
+                No<input type="radio" id="health" name="health" value="No" /></p>
+                
+                <label for="health" id="health">Applicant has normal eyesight:</label>
+                Yes<input type="radio" id="health" name="eyesight" value="Yes" />
+                No<input type="radio" id="health" name="eyesight value="No" /></p>
+                
+                <label for="health" id="health">Applicant has normal hearing:</label>
+                Yes<input type="radio" id="health" name="hearing value="Yes" />
+                No<input type="radio" id="health" name="hearing" value="No" /></p>
+            
+            </fieldset>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+<!-- the righ hand bar -->
+        <div class="righ-column">
+            <div class="col-row1">
+                <img src="images/veep at navasco.jpg" alt="Veep @60 anniversart">
+                <div class="title">Vice President Dr. Mahamadu Bawumia @ 60 Anniversary</div>
+            </div>
+
+            <div class="col-row1">
+                <img src="images/old students visit traditional leader.jpg" alt="old students">
+                <div class="title">Old students visit Paramount Chief</div>
+            </div>
+            
+            <div class="col-row2">
+                <h2>Programmes we offer</h2>
+                <table>
+                    <tr>
+                        <th>Code</th>
+                        <th>Programme</th>
+                        <th>Vacancy</th>
+                    </tr>
+                    <tr>
+                        <td>HM431</td>
+                        <td>Home Science</td>
+                        <td>330</td>
+                    </tr>
+                    <tr>
+                        <td>GS132</td>
+                        <td>General Science</td>
+                        <td>130</td>
+                    </tr>
+                    <tr>
+                        <td>VA211</td>
+                        <td>Visual Arts</td>
+                        <td>230</td>
+                    </tr>
+                    <tr>
+                        <td>GA401</td>
+                        <td>General Arts</td>
+                        <td>170</td>
+                    </tr>
+                </table>
+                <div class="title"></div>
+            </div>
+        </div>
+    
+        <!-- The footer section -->
+        <footer>
+            <div class="section1"> 
+                <p>Author: Group A</p>
+                <p>20200404008</p>
+                <p>20200404031</p>
+                <p>FMS/0089/19</p>
+                <p>FMS/0166/19</p>
+                <p>FMS/0168/19</p>
+            </div>
+
+            <div class="section2"> 
+                <p>Address:</p>
+                <p>NAVASCO, Box 3322</p>
+                <p>Navrongo-UP</p>
+            </div>
+
+            <div class="section3"> 
+                <p>Contact:</p>
+                <p>Office line: +233-23254</p>
+                <p>Mobile: 0249216851/0207237444</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
