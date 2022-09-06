@@ -8,7 +8,14 @@ body{
     font-family: 'Arial Narrow', Arial, sans-serif ;
 
 }
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a {
+  display: block;
+}
 /*This is to align the table row content to the center*/
 tr{
 text-align: center;
@@ -216,4 +223,59 @@ footer {
   float: left;
   margin-left: 150px;
   margin-left: 200p;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  body{
+    width: 90%;
+  }
+  marquee{
+    color:#04AA6D;
+  }
+  form{
+    float: left;
+    width: 100%;
+  }
+  .righ-column{
+    width:90%;
+  }
+  .topnav{
+    width: 110px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+  }
+  
+  li a {
+    display: block;
+    width: 80px;
+  }
+  /* .nav-container {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 0;
+    padding-top: 40px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+} */
+  .search{
+    display: none;
+  }
 }
